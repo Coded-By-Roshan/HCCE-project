@@ -36,8 +36,8 @@ def login_facebook():
     username = driver.find_element_by_xpath('//*[@id="email"]')
     username.send_keys("username@yahoo.com")
     password = driver.find_element_by_xpath('//*[@id="pass"]')
-    password("**********")
-    login_btn = driver.find_element_by_xpath('//*[@id="u_0_9_SS"]')
+    password.send_keys("123456")
+    login_btn = driver.find_element_by_xpath('//*[@id="u_0_5_qT"]')
     login_btn.click()
 
 
